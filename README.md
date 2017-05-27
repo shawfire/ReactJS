@@ -13,6 +13,7 @@ git commit -m "first commit"
 git remote add origin https://github.com/shawfire/ReactJS.git
 git push -u origin master
 ```
+
 ## Initial commit
 ```
 git status
@@ -22,7 +23,8 @@ git commit -m 'Initial commit'
 git status
 git push -u origin master
 ```
-# Create branch
+
+## Create branch
 [Create a new branch with git and manage branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
 ```
 git checkout -b react
@@ -33,6 +35,27 @@ git commit -m 'Pure React.'
 git status
 git push -u origin react
 ```
+
+## Undo last commit
+[How to undo last commit(s) in Git?](https://stackoverflow.com/questions/927358/how-to-undo-last-commits-in-git)
+```
+Accidentally added node_modules directory.
+Added a .gitignore file,
+Undid the last commit with git reset HEAD~
+then recommited my changes
+
+git add -A
+git commit -m 'Babel static transpiling with babel-cli'
+git status
+git reset HEAD~
+git status
+git add -A
+git status
+git commit -m 'Babel static transpiling with babel-cli'
+git status
+git push -u origin react
+```
+
 # Setting up Chrome tools for React
 ```
   Chrome preferences extensions
@@ -50,6 +73,7 @@ git push -u origin react
     Choose the React tab
     Can see Props and State of components below components selector
 ```
+
 # Intro to JSX and Babel
 ## Pure React
     https://cdnjs.com/
