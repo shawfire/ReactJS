@@ -34,6 +34,7 @@ git status
 git push -u origin react
 ```
 # Setting up Chrome tools for React
+```
   Chrome preferences extensions
     react-detector
       Check - Allow access to file URLs
@@ -48,6 +49,7 @@ git push -u origin react
     Open developer tools (Mac Cmd-Opt-j, Win Ctrl+Shift+j or F12)
     Choose the React tab
     Can see Props and State of components below components selector
+```
 # Intro to JSX and Babel
 ## Pure React
     https://cdnjs.com/
@@ -69,3 +71,9 @@ git push -u origin react
       httpster -d ./Essentials -p 3000
 ## Babel static transpiling with babel-cli
       npm init
+      generates a package.json file
+      npm install --save-dev babel-cli
+      sudo npm i -g babel-cli
+      npm i --save-dev babel-preset-latest babel-preset-react babel-preset-stage-0
+      babel ./src/index.js --out-file ./dist/bundle.js
+      npm start
