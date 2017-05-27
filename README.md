@@ -1,6 +1,7 @@
 # ReactJS
 
 # Create New GitHub repository
+```
 Create a new repository on [github](https://github.com/shawfire/ReactJS)
 cd ~/projects
 mkdir ReactJS
@@ -11,7 +12,27 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/shawfire/ReactJS.git
 git push -u origin master
-
+```
+## Initial commit
+```
+git status
+git add -A
+git status
+git commit -m 'Initial commit'
+git status
+git push -u origin master
+```
+# Create branch
+[Create a new branch with git and manage branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
+```
+git checkout -b react
+git branch
+git status
+git add -A
+git commit -m 'Pure React.'
+git status
+git push -u origin react
+```
 # Setting up Chrome tools for React
   Chrome preferences extensions
     react-detector
