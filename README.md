@@ -28,23 +28,23 @@ git push -u origin master
     Choose the React tab
     Can see Props and State of components below components selector
 # Intro to JSX and Babel
-## Pure React 6m 19s
+## Pure React
     https://cdnjs.com/
       react
     sudo npm install -g httpster
-    cd /Users/shawfire/Downloads/lynda/ReactJS/Ex_Files_React_EssT/Ch02/02_01/start
-    httpster -d ./dist1 -p 3000
+    cd ~/projects/ReactJS
+    httpster -d ./Essentials -p 3000
     localhost:3000
-    httpster -d ./dist2 -p 3000
+    httpster -d ./Essentials -p 3000
 ## Refactoring elements using JSX
-    /Users/shawfire/Downloads/lynda/ReactJS/Ex_Files_React_EssT/Ch02/02_02/start
-    httpster -d ./dist1 -p 3000
+    cd ~/projects/ReactJS
+    httpster -d ./Essentials -p 3000
 ## Babel inline transpiling
     babeljs.io
     https://cdnjs.com/
       babel
         select babel-core 5.8.38
-      cd /Users/shawfire/Downloads/lynda/ReactJS/Ex_Files_React_EssT/Ch02/02_03/start
-      httpster -d ./dist1 -p 3000
+      cd cd ~/projects/ReactJS
+      httpster -d ./Essentials -p 3000
 ## Babel static transpiling with babel-cli
       npm init
