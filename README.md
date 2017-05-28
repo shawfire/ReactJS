@@ -101,3 +101,34 @@ git push -u origin react
       npm i --save-dev babel-preset-latest babel-preset-react babel-preset-stage-0
       babel ./src/index.js --out-file ./dist/bundle.js
       npm start
+## Building with webpack
+npm i webpack webpack-dev-server babel-loader --save-dev
+sudo npm i -g webpack webpack-dev-server
+./node_modules/.bin/webpack
+Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema.
+ - configuration.output.path: The provided value "dist/assets" is not an absolute path!
+
+Tried troubleshooting this above error and finally started over with yarn and everything worked...
+https://www.npmjs.com/package/webpack
+https://stackoverflow.com/questions/42060243/invalid-configuration-object-webpack-has-been-initialised-using-a-configuration
+https://docs.npmjs.com/getting-started/uninstalling-global-packages
+sudo npm install webpack@latest -g
+https://www.npmjs.com/package/npm-check-updates
+npm install -g npm-check-updates
+ncu
+https://webpack.js.org/guides/installation/
+https://blog.madewithenvy.com/getting-started-with-webpack-2-ed2b86c68783
+https://blog.risingstack.com/yarn-vs-npm-node-js-package-managers/
+yarn add --dev webpack webpack-dev-server@2
+
+# React with yarn and webpack
+https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel
+brew update
+brew install yarn
+brew update yarn
+yarn init
+yarn add webpack webpack-dev-server path
+touch webpack.config.js
+yarn add babel-loader babel-core babel-preset-es2015 babel-preset-react --dev
+yarn add html-webpack-plugin
+yarn start
