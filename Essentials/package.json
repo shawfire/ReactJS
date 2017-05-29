@@ -10,7 +10,7 @@
     "start": "webpack-dev-server"
   },
   "dependencies": {
-    "bootstrap": "4.0.0-alpha.6",
+    "bootstrap": "4.0.0-alpha.6", 
     "html-webpack-plugin": "^2.28.0",
     "path": "^0.12.7",
     "react": "^15.5.4",
