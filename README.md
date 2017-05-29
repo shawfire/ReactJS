@@ -147,3 +147,5 @@ git push -u origin react
 [React Test Utilities](https://facebook.github.io/react/docs/test-utils.html)
 # Adding a json-loader to Webpack config
 yarn add json-loader --dev
+# Added CSS and SCSS Loader to WebPack config
+yarn add style-loader css-loader autoprefixer-loader sass-loader node-sass --dev
