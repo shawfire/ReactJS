@@ -159,5 +159,9 @@ or use a [Bootstrap CDN](https://v4-alpha.getbootstrap.com/)
 Implement React wrapper component for Bootstrap 4 Alert message using
 a stateless functional component, a react createClass component and
 a ES6 react class component with default props.
-# Spice up your components with react-icons and add a stateful class component. 
+# Spice up your components with react-icons and add a stateful class component.
 yarn add react-icons
+# Testing with Jest
+[Jest Getting Started](https://facebook.github.io/jest/docs/en/getting-started.html)
+Test jest on a new branch of react.
+git checkout -b jest react
