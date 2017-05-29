@@ -141,3 +141,7 @@ git push -u origin react
   yarn add react react-dom
 # Introduce an App component
 ../components/App.js
+[Webpack doco](https://webpack.github.io/)
+[Webpack getting started](https://webpack.js.org/guides/get-started/)
+[Webpack and Typescript](https://webpack.js.org/guides/webpack-and-typescript/)
+[React Test Utilities](https://facebook.github.io/react/docs/test-utils.html)
