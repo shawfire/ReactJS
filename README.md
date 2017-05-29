@@ -127,7 +127,7 @@ git push -u origin react
 
 
 # React with yarn and webpack
-  https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel
+  [Setup a React Environment Using webpack and Babel](https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel)
   brew update
   brew install yarn
   brew update yarn
@@ -139,3 +139,5 @@ git push -u origin react
   yarn start
 # Use react and react-dom packages
   yarn add react react-dom
+# Introduce an App component
+../components/App.js
