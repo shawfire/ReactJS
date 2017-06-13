@@ -16,17 +16,21 @@ export default class App extends React.Component {
       <div>
         <h1>Hello There!</h1>
         <AClock />
-        <AButton /><AButton type="warning" str="Warning" />
-        <AButton type="info" str="Info" />
-        <AButton type="danger" str="Danger" />
+        <AButton /><AButton type="warning" title="Warning" />
+        <AButton type="info" title="Info" />
+        <AButton type="danger" title="Danger" />
         {hello}
         {goodbye}
-        <Alert alert_type="success" str="Alert from stateless functional component."/>
-        <Alert alert_type="info" str="Success alert message."/>
-        <Alert alert_type="warning" str="Success alert message."/>
-        <Alert alert_type="danger" str="Success alert message."/>
+        <Alert alertType="success">
+          Alert from stateless functional component.
+        </Alert>
+        <Alert alertType="info">
+          Success alert message.
+        </Alert>
+        <Alert alertType="warning" title="Success alert message."/>
+        <Alert alertType="danger" title="Success alert message."/>
         <Alert1 />
-        <Alert1 str="Alert from ES6 react class component."/>
+        <Alert1 title="Alert from ES6 react class component."/>
       </div>);
   }
 }

@@ -1,5 +1,9 @@
 # ReactJS
 
+In Sources - Cmd P - find source files - set break points - Emojido
+insertBefore
+addElement
+
 # Create New GitHub repository
 ```
 Create a new repository on [github](https://github.com/shawfire/ReactJS)
@@ -55,6 +59,22 @@ git commit -m 'Babel static transpiling with babel-cli'
 git status
 git push -u origin react
 ```
+## Create jest branch of the react branch
+```
+  git checkout -b jest react
+  git add -A
+  git commit -m 'Testing with Jest'
+```
+## Revert to react branch
+```
+  git checkout react
+```
+## Push all branches correctly to remote
+```
+  git push --all -u
+```
+[How do I push a new local branch to a remote Git repository and track it too?](https://stackoverflow.com/questions/2765421/how-do-i-push-a-new-local-branch-to-a-remote-git-repository-and-track-it-too)
+
 
 # Setting up Chrome tools for React
 ```
@@ -93,7 +113,7 @@ git push -u origin react
     https://cdnjs.com/
       babel
         select babel-core 5.8.38
-      cd cd ~/projects/ReactJS
+      cd ~/projects/ReactJS
       httpster -d ./Essentials -p 3000
 
 ## Babel static transpiling with babel-cli
@@ -161,9 +181,12 @@ a stateless functional component, a react createClass component and
 a ES6 react class component with default props.
 # Spice up your components with react-icons and add a stateful class component.
 yarn add react-icons
-Create jest branch
+## Create jest branch of the react branch
   git checkout -b jest react
   git add -A
   git commit -m 'Testing with Jest'
 Revert to react branches
   git checkout react
+Push all branches correctly to remote
+  git push --all -u
+  [How do I push a new local branch to a remote Git repository and track it too?](https://stackoverflow.com/questions/2765421/how-do-i-push-a-new-local-branch-to-a-remote-git-repository-and-track-it-too)
